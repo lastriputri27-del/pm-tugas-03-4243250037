@@ -57,18 +57,16 @@ Screenshot pengujian program dapat dilihat pada folder `screenshots`.
 
 ![Hasil Pengujian Program](screenshots/hasil-pengujian.png)
 
+Pengujian dilakukan dengan memasukkan lima mata kuliah, yaitu Pemrograman Mobile, Basis Data, Jaringan Komputer, Kecerdasan Buatan, serta Pemodelan dan Simulasi. Berdasarkan hasil pengujian, diperoleh total SKS sebanyak 13 dengan total mutu sebesar 33. Hasil perhitungan menunjukkan IP semester sebesar 2,54 dengan predikat Memuaskan.
+
+Program juga berhasil mengurutkan mata kuliah berdasarkan nilai tertinggi dan mengidentifikasi mata kuliah yang perlu ditingkatkan, yaitu Pemodelan dan Simulasi dengan nilai E.
+
 ### Pengujian Validasi Input
 
 ![Pengujian Validasi Input](screenshots/pengujian-validasi.png)
 
-Pengujian dilakukan menggunakan beberapa mata kuliah dengan nilai A, B, C, dan E. Pengujian juga mencakup proses pengurutan nilai dan validasi input SKS yang tidak valid.
+Pengujian validasi dilakukan dengan memasukkan huruf B pada kolom jumlah SKS. Program berhasil menolak input tersebut karena SKS harus berupa angka antara 1 sampai 6. Setelah kesalahan input terjadi, program tetap dapat menerima data mata kuliah berikutnya dan melanjutkan proses perhitungan.
 
 ## 8. Pernyataan Penggunaan AI
 
 Dalam pengerjaan tugas ini, AI digunakan sebagai alat bantu untuk memahami materi, memperoleh arahan penyusunan kode, dan membantu pemeriksaan program. Kode dipelajari dan diuji kembali secara mandiri untuk memastikan program berjalan sesuai dengan ketentuan tugas.
-
-## 9. Contoh Hasil Pengujian
-
-Pengujian dilakukan dengan memasukkan lima mata kuliah dengan total 14 SKS. Hasil perhitungan menunjukkan total mutu sebesar 35 dan IP semester sebesar 2,50 dengan predikat Memuaskan.
-
-Program juga berhasil mengurutkan mata kuliah berdasarkan nilai tertinggi dan menampilkan mata kuliah yang perlu ditingkatkan.
