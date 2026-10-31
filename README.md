@@ -60,3 +60,9 @@ Pengujian dilakukan menggunakan beberapa mata kuliah dengan nilai A, B, C, dan E
 ## 8. Pernyataan Penggunaan AI
 
 Dalam pengerjaan tugas ini, AI digunakan sebagai alat bantu untuk memahami materi, memperoleh arahan penyusunan kode, dan membantu pemeriksaan program. Kode dipelajari dan diuji kembali secara mandiri untuk memastikan program berjalan sesuai dengan ketentuan tugas.
+
+## 9. Contoh Hasil Pengujian
+
+Pengujian dilakukan dengan memasukkan lima mata kuliah dengan total 14 SKS. Hasil perhitungan menunjukkan total mutu sebesar 35 dan IP semester sebesar 2,50 dengan predikat Memuaskan.
+
+Program juga berhasil mengurutkan mata kuliah berdasarkan nilai tertinggi dan menampilkan mata kuliah yang perlu ditingkatkan.
