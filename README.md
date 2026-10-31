@@ -18,9 +18,9 @@ Program dapat menerima beberapa data mata kuliah secara berulang. Pengguna dapat
 1. Input data mata kuliah secara berulang.
 2. Konversi nilai huruf A, B, C, D, dan E menjadi bobot angka.
 3. Validasi jumlah SKS dan nilai huruf.
-4. Perhitungan IP semester.
+4. Perhitungan IP semester menggunakan fungsi `fold()`.
 5. Penentuan predikat berdasarkan IP.
-6. Menampilkan mata kuliah dengan nilai di bawah C.
+6. Menampilkan mata kuliah dengan nilai D dan E yang perlu ditingkatkan.
 7. Pengurutan mata kuliah berdasarkan nilai tertinggi.
 
 ## 4. Teknologi yang Digunakan
@@ -31,13 +31,13 @@ Program dapat menerima beberapa data mata kuliah secara berulang. Pengguna dapat
 
 ## 5. Cara Menjalankan Program
 
-Pastikan Dart SDK sudah terpasang. Buka terminal pada folder proyek, kemudian jalankan:
+Pastikan Dart SDK sudah terpasang. Buka terminal pada folder proyek, kemudian jalankan perintah berikut:
 
 ```bash
 dart run
 ```
 
-Untuk memeriksa kode, jalankan:
+Untuk memeriksa kode program, jalankan:
 
 ```bash
 dart analyze
@@ -53,10 +53,15 @@ Error handling diterapkan pada fungsi `validasiData()` menggunakan `throw Format
 
 Screenshot pengujian program dapat dilihat pada folder `screenshots`.
 
+### Hasil Pengujian Program
+
 ![Hasil Pengujian Program](screenshots/hasil-pengujian.png)
+
+### Pengujian Validasi Input
+
 ![Pengujian Validasi Input](screenshots/pengujian-validasi.png)
 
-Pengujian dilakukan menggunakan beberapa mata kuliah dengan nilai A, B, C, dan E. Pengujian juga mencakup proses pengurutan nilai dan validasi input.
+Pengujian dilakukan menggunakan beberapa mata kuliah dengan nilai A, B, C, dan E. Pengujian juga mencakup proses pengurutan nilai dan validasi input SKS yang tidak valid.
 
 ## 8. Pernyataan Penggunaan AI
 
