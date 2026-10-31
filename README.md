@@ -54,6 +54,7 @@ Error handling diterapkan pada fungsi `validasiData()` menggunakan `throw Format
 Screenshot pengujian program dapat dilihat pada folder `screenshots`.
 
 ![Hasil Pengujian Program](screenshots/hasil-pengujian.png)
+![Pengujian Validasi Input](screenshots/pengujian-validasi.png)
 
 Pengujian dilakukan menggunakan beberapa mata kuliah dengan nilai A, B, C, dan E. Pengujian juga mencakup proses pengurutan nilai dan validasi input.
 
